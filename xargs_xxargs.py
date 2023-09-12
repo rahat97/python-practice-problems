@@ -3,7 +3,7 @@ print("===## xargs: ##===\n")
 print("Example-01 ::")
 
 
-def student(*details):
+def student(*details):      #it works like tuples
     print(details)
 
 
@@ -26,3 +26,12 @@ add(12, 22, 78)
 add(12, 22, 34, 56)
 
 
+print("\n\n===## xxargs: ##===\n")
+print("Example-01 ::")
+
+
+def student(**details):     #it works like dictionaries
+    print(details)
+
+
+student(id=102, name="Rahat")
