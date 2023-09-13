@@ -1,4 +1,4 @@
-file = open("students.txt", "r")
+file = open("students.txt", "r")    # for read = r, for write = w, for both = r+ ; here w and r+ will remove previous data from file and add new data
 
 # print(file.readable())
 '''text = file.read()
