@@ -6,6 +6,7 @@ class Phone:
         print("You can message")
 
 
+# here Phone -> super class/parent class/ base class and Apple -> child class/sub class/ Derived class
 class Apple(Phone):
 
     '''def call(self):
