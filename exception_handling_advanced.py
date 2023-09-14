@@ -4,11 +4,10 @@ try:
     result = num1/num2
     print(result)
 
-except ValueError:
-    print("You have to insert only integer.")
-except ZeroDivisionError:
-    print("You can not divide a number by zero")
+except (ValueError, ZeroDivisionError):     # multiple exception error together
+    print("You have entered incorrect input.")
 
+# except ZeroDivisionError:
+#    print("You can not divide a number by zero")
 finally:
     print("Thanks !!")
-    
