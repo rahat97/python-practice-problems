@@ -1,6 +1,6 @@
 class Triangle:
-    base = ""
-    height = ""
+    '''base = ""
+    height = ""'''
 
     def __init__(self, base, height):
         self.base = base
