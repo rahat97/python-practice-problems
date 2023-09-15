@@ -15,4 +15,17 @@ else:
 print(re.findall(pattern, "Red is a colour, I love red colour"))
 
 
+# more on search function
+
+pattern = r"colour"
+text = "My favourite colour is Red"
+match = re.search(pattern, text)
+
+if match:
+    print(match.start())
+    print(match.end())
+    print(match.span())
+
+
+
 
